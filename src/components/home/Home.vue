@@ -1,26 +1,26 @@
 <template>
   <div id="app">
     <Navbar/>
+    <Body/>
+    <Footer/>
   </div>
 </template>
 
 <script>
 import Navbar from './header/navbar/Navbar.vue'
+import Body from './body/Body.vue'
+import Footer from './footer/Footer.vue'
 
 export default {
   name: 'Home',
   components: {
-    Navbar
+    Navbar,
+    Body,
+    Footer
   }
 }
 </script>
 
 <style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
+
 </style>

@@ -19,7 +19,6 @@ export default {
   text-align: center;
 }
 .logo img {
-    max-width: 350px;
     max-width: 150px;
 }
 </style>

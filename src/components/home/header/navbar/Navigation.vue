@@ -21,8 +21,8 @@ export default {
         },
         {
           id: 1,
-          text: 'contact',
-          page:'/contact'
+          text: 'about us',
+          page:'/about'
         },
         {
           id: 2,
@@ -31,8 +31,8 @@ export default {
         },
         {
           id: 3,
-          text: 'about us',
-          page:'/about'
+          text: 'contact',
+          page:'/contact'
         },
       ]
     }
@@ -56,4 +56,7 @@ export default {
     color: black;
     text-decoration: none;
   } 
+  .router-link:hover {
+    color: #494949;
+  }
 </style>
