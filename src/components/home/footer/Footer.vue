@@ -1,7 +1,7 @@
 <template>
   <div class="footer">
-    <a href="https://www.google.co.uk/" class="footer-icon"><img src="@/assets/images/instagram.svg" alt="logo"/></a>
-    <a href="https://www.google.co.uk/" class="footer-icon"><img src="@/assets/images/facebook.svg" alt="logo"/></a>
+    <a href="https://www.facebook.com/" class="footer-icon"><img src="@/assets/images/facebook logo.svg" alt="logo"/></a>
+    <a href="https://www.instagram.com/" class="footer-icon"><img src="@/assets/images/instagram logo.svg" alt="logo"/></a>
     <h1>&copy; 2019 Copyright: SimpleGolfBalls</h1>
   </div>
 </template>
@@ -16,7 +16,7 @@ export default {
 <style>
 .footer {
     Margin-right: 50px;
-    font-family: 'Sawasdee', sans-serif;
+    font-family: 'Dosis', sans-serif;
     font-size: 10px;
     background-color: white;
     color: black;

@@ -50,13 +50,13 @@ export default {
 
 .router-link { 
     Margin-right: 50px;
-    font-family: 'Sawasdee', sans-serif;
+    font-family: 'Dosis', sans-serif;
     font-size: 28px;
     background-color: white;
     color: black;
     text-decoration: none;
   } 
   .router-link:hover {
-    color: #494949;
+    opacity: 0.7;
   }
 </style>
