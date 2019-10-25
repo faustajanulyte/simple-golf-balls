@@ -2,17 +2,17 @@
   <div class="body">
     <router-link class="body-link" to="/about">
       <a class="body-icon">
-        <img style="display: inline" src="@/assets/images/friendship.svg" alt="about us"/>
+        <img src="@/assets/images/friendship.svg" alt="about us"/>
       </a>
     </router-link>
     <router-link class="body-link" to="/shop">
       <a class="body-icon">
-        <img style="display: inline" src="@/assets/images/golf.svg" alt="shop"/>
+        <img src="@/assets/images/golf.svg" alt="shop"/>
       </a>
     </router-link>
     <router-link class="body-link" to="/contact">
       <a class="body-icon">
-        <img style="display: inline" src="@/assets/images/contact.svg" alt="contact"/>
+        <img src="@/assets/images/contact.svg" alt="contact"/>
       </a>
     </router-link>
   </div>
@@ -47,13 +47,19 @@ export default {
 </script>
 
 <style>
-.body {
+.body-link {
   display: inline-block;
   text-align: right;
   width: 250px;
   padding-right: 100px;
+  margin-top: 300px;
+  margin-bottom: 300px;
+  filter: invert(1.0);
 }
 .body-link:hover {
   opacity: 0.7;
+}
+.body {
+  margin: 0px;
 }
 </style>

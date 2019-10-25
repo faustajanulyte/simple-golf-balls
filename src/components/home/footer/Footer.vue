@@ -15,20 +15,24 @@ export default {
 
 <style>
 .footer {
-    Margin-right: 50px;
-    font-family: 'Dosis', sans-serif;
-    font-size: 10px;
-    background-color: white;
-    color: black;
-    text-decoration: none;
-    background-color: white;
-    font-weight: 50;
+  Margin-right: 50px;
+  font-family: 'Dosis', sans-serif;
+  font-size: 10px;
+  color: white;
+  text-decoration: none;
+  font-weight: 50;
+  padding-bottom: 20px;
+}
+
+.footer h1 {
+  margin-block-end: 0px;
 }
 
 .footer-icon img {
   max-width: 40px;
   margin-right: 10px;
   margin-top: 10px;
+  filter: invert(1.0);
 }
 
 .footer-icon img:hover {

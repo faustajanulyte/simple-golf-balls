@@ -2,3 +2,7 @@
     font-family: "Sawasdee";
     src: url("/assets/fonts/Sawasdee.ttf") format("ttf");
 }
+
+body {
+    margin: 0px;
+}

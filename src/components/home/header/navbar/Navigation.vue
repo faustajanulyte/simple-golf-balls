@@ -46,14 +46,14 @@ export default {
     text-align: right;
     width: 100%;
     padding-right: 100px;
+    padding-top: 20px;
 }
 
 .router-link { 
     Margin-right: 50px;
     font-family: 'Dosis', sans-serif;
     font-size: 28px;
-    background-color: white;
-    color: black;
+    color: white;
     text-decoration: none;
   } 
   .router-link:hover {
