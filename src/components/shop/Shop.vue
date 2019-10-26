@@ -1,15 +1,28 @@
 <template>
-  <div>
-    <h1>Shop</h1>
-    <p>Here is some information. This is the shop page</p>
+  <div class="about">
+    <Navbar/>
+    <Footer/>
   </div>
 </template>
 
 <script>
+import Navbar from '@/components/home/header/navbar/Navbar.vue'
+import Footer from '@/components/home/footer/Footer.vue'
+
 export default {
-  name: 'Shop' //this is the name of the component
+  name: 'About',
+  components: {
+    Navbar,
+    Footer
+  }
 }
 </script>
 
 <style>
+.about {
+  background-image: url('~@/assets/images/background.jpg');
+  background-size: 100%;
+  margin: 0px;
+  opacity: 0.8;
+}
 </style>

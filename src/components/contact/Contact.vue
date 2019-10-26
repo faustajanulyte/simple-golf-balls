@@ -1,23 +1,28 @@
 <template>
-  <div>
-    <h1>Contact Us</h1>
-  <p>
-    <ul>
-      <li>Email: {{email}}</li>
-      <li>Number: {{number}}</li>
-    </ul>
-  </p>
+  <div class="about">
+    <Navbar/>
+    <Footer/>
   </div>
 </template>
 
 <script>
+import Navbar from '@/components/home/header/navbar/Navbar.vue'
+import Footer from '@/components/home/footer/Footer.vue'
+
 export default {
-  name: 'Contact',
-  data(){
-    return {
-      email: "info@simplegolfballs.com",
-      number: "+447764755021"
-    }
+  name: 'About',
+  components: {
+    Navbar,
+    Footer
   }
 }
 </script>
+
+<style>
+.about {
+  background-image: url('~@/assets/images/background.jpg');
+  background-size: 100%;
+  margin: 0px;
+  opacity: 0.8;
+}
+</style>

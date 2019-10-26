@@ -1,19 +1,28 @@
 <template>
   <div class="body">
     <router-link class="body-link" to="/about">
-      <a class="body-icon">
-        <img src="@/assets/images/friendship.svg" alt="about us"/>
-      </a>
+      <div class="img-block">
+        <h1>About Us</h1>
+          <a class="body-icon">
+            <img src="@/assets/images/friendship.svg" alt="about us" />
+          </a>
+      </div>
     </router-link>
     <router-link class="body-link" to="/shop">
-      <a class="body-icon">
-        <img src="@/assets/images/golf.svg" alt="shop"/>
-      </a>
+      <div class="img-block">
+        <h1>Shop</h1>
+          <a class="body-icon">
+            <img src="@/assets/images/golf.svg" alt="shop" />
+          </a>
+      </div>
     </router-link>
     <router-link class="body-link" to="/contact">
-      <a class="body-icon">
-        <img src="@/assets/images/contact.svg" alt="contact"/>
-      </a>
+      <div class="img-block">
+        <h1>Contact Us</h1>
+          <a class="body-icon">
+            <img src="@/assets/images/contact.svg" alt="contact" />
+          </a>
+      </div>
     </router-link>
   </div>
 </template>
@@ -48,18 +57,24 @@ export default {
 
 <style>
 .body-link {
+  filter: invert(1.0);
+}
+.img-block {
   display: inline-block;
   text-align: right;
   width: 250px;
   padding-right: 100px;
   margin-top: 300px;
   margin-bottom: 300px;
-  filter: invert(1.0);
 }
 .body-link:hover {
   opacity: 0.7;
 }
 .body {
   margin: 0px;
+}
+.img-block h1 {
+  color: black;
+  text-align: center;
 }
 </style>
