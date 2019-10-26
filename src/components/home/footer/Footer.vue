@@ -15,7 +15,6 @@ export default {
 
 <style>
 .footer {
-  Margin-right: 50px;
   font-family: 'Dosis', sans-serif;
   font-size: 10px;
   color: white;
@@ -26,6 +25,7 @@ export default {
 
 .footer h1 {
   margin-block-end: 0px;
+  font-weight: 100;
 }
 
 .footer-icon img {

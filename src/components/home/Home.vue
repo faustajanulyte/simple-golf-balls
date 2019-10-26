@@ -1,5 +1,5 @@
 <template>
-  <div class="app">
+  <div class="home">
     <Navbar/>
     <Body/>
     <Footer/>
@@ -22,10 +22,10 @@ export default {
 </script>
 
 <style>
-.app {
+.home {
   background-image: url('~@/assets/images/background.jpg');
   background-size: 100%;
   margin: 0px;
-  opacity: 0.8;
+  opacity: 0.7;
 }
 </style>

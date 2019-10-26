@@ -52,6 +52,7 @@ export default {
 .router-link { 
     Margin-right: 50px;
     font-family: 'Dosis', sans-serif;
+    font-weight: 300;
     font-size: 28px;
     color: white;
     text-decoration: none;
