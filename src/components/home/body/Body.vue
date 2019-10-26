@@ -64,8 +64,8 @@ export default {
   text-align: right;
   width: 250px;
   padding-right: 100px;
-  margin-top: 300px;
-  margin-bottom: 300px;
+  padding-top: 200px;
+  padding-bottom: 300px;
 }
 .body-link:hover {
   opacity: 0.7;

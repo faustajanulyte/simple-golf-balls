@@ -23,6 +23,6 @@ export default {
   background-image: url('~@/assets/images/background.jpg');
   background-size: 100%;
   margin: 0px;
-  opacity: 0.8;
+  opacity: 0.7;
 }
 </style>

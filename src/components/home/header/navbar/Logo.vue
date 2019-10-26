@@ -14,12 +14,12 @@ export default {
 <style>
 .logo {
   display: inline-block;
-  max-width: 20%;
+  max-width: 150px;
   padding-left: 100px;
   text-align: center;
 }
 .logo img {
-  max-width: 150px;
+  max-width: 100%;
   filter: invert(1.0);
   padding-top: 40px;
 }

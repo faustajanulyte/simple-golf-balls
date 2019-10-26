@@ -1,31 +1,38 @@
 <template>
   <div class="home">
-    <Navbar/>
+    <Logo/>
     <Body/>
     <Footer/>
   </div>
 </template>
 
 <script>
-import Navbar from './header/navbar/Navbar.vue'
+import Logo from './header/navbar/Logo.vue'
 import Body from './body/Body.vue'
 import Footer from './footer/Footer.vue'
 
 export default {
   name: 'Home',
   components: {
-    Navbar,
+    Logo,
     Body,
     Footer
   }
 }
 </script>
 
-<style>
+<style scoped>
 .home {
   background-image: url('~@/assets/images/background.jpg');
   background-size: 100%;
   margin: 0px;
   opacity: 0.7;
+}
+
+.logo {
+  display: inline-block;
+  max-width: 250px;
+  text-align: center;
+  padding-left: 0px;
 }
 </style>
