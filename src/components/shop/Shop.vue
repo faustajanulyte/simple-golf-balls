@@ -1,5 +1,5 @@
 <template>
-  <div class="about">
+  <div class="shop">
     <Navbar/>
     <Footer/>
   </div>
@@ -10,7 +10,7 @@ import Navbar from '@/components/home/header/navbar/Navbar.vue'
 import Footer from '@/components/home/footer/Footer.vue'
 
 export default {
-  name: 'About',
+  name: 'Shop',
   components: {
     Navbar,
     Footer
@@ -19,10 +19,9 @@ export default {
 </script>
 
 <style>
-.about {
-  background-image: url('~@/assets/images/background.jpg');
+.shop {
+  background-image: url('~@/assets/images/background.png');
   background-size: 100%;
   margin: 0px;
-  opacity: 0.7;
 }
 </style>
