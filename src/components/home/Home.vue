@@ -1,7 +1,7 @@
 <template>
 <div class="background">
   <div class="home">
-    <Header/>
+    <Logo/>
     <Body/>
     <Footer/>
   </div>
@@ -26,10 +26,9 @@ export default {
 <style scoped>
 
 .background {
-  background-image: url('~@/assets/images/background.jpg');
+  background-image: url('~@/assets/images/background.png');
   background-size: 100%;
   margin: 0px;
-  opacity: 0.7;
 }
 
 .logo {

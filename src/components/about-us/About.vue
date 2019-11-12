@@ -23,9 +23,8 @@ export default {
 
 <style>
 .about {
-  background-image: url('~@/assets/images/background.jpg');
+  background-image: url('~@/assets/images/background.png');
   background-size: 100%;
-  margin: 0px; 
-  opacity: 0.7;
+  margin: 0px;
 }
 </style>
