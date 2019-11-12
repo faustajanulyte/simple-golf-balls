@@ -1,9 +1,11 @@
 <template>
+<div class="background">
   <div class="home">
-    <Logo/>
+    <Header/>
     <Body/>
     <Footer/>
   </div>
+</div>
 </template>
 
 <script>
@@ -22,7 +24,8 @@ export default {
 </script>
 
 <style scoped>
-.home {
+
+.background {
   background-image: url('~@/assets/images/background.jpg');
   background-size: 100%;
   margin: 0px;

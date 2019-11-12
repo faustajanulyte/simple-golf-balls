@@ -25,9 +25,9 @@ export default {
   max-width: 250px;
   margin-right: 50px;
   margin-left: 50px;
-  margin-top: 100px;
+  margin-top: 50px;
   margin-bottom: 50px;
-  border-radius: 20px;  
+  border-radius: 20px;
 }
 
 .about-us h1 {
